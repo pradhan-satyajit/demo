@@ -12,3 +12,9 @@ git mv <source file name> <target file name> --Rename file name. Automatically S
 
 git rm <file name> --Deletes file from Repository. Run commit command to make the changes permanent else restore
 
+
+<Add and Commit using a single command>
+git config --global alias.add-commit '!git add -A && git commit' --Create Alias for a long command
+
+<Then use the below command to run 1 single command to ADD and Commits>
+git add-commit -m "Add and Commit"
