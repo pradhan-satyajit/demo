@@ -18,3 +18,7 @@ git config --global alias.add-commit '!git add -A && git commit' --Create Alias 
 
 <Then use the below command to run 1 single command to ADD and Commits>
 git add-commit -m "Add and Commit"
+
+git log --oneline --graph --decorate --all
+
+git config --global alias.hist '!git log --oneline --graph --decorate --all' --Create Alias for a long command
