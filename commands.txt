@@ -26,7 +26,14 @@ git config --global alias.hist '!git log --oneline --graph --decorate --all' --C
 
 --Add local Repository into GITHub
  git remote add origin https://github.com/pradhan-satyajit/demo.git
-
 git push -u origin master
 
 git init --initialize empty GIT repository
+
+--Pull from remote Repository
+ git pull https://github.com/simplilearn-github/FirstRepo.git
+--Make changes to the file and add-commit into
+--Remote add to GitHub
+git remote add origin https://github.com/simplilearn-github/FirstRepo.git
+
+git push -u origin master
