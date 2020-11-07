@@ -1,0 +1,12 @@
+*******************************************
+
+git add <file name> --Put local file into Staging layer
+
+git status --Current Status of GIT  Repository
+
+git commit -m "Comment during Checkin" --Commits Staged changes into Repository
+
+git restore <file name> --Removes Staged changes
+
+git mv <source file name> <target file name> --Rename file name. Automatically Staged
+
