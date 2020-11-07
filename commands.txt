@@ -22,3 +22,9 @@ git add-commit -m "Add and Commit"
 git log --oneline --graph --decorate --all
 
 git config --global alias.hist '!git log --oneline --graph --decorate --all' --Create Alias for a long command
+
+
+--Add local Repository into GITHub
+ git remote add origin https://github.com/pradhan-satyajit/demo.git
+
+git push -u origin master
