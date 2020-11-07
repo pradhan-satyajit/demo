@@ -28,3 +28,5 @@ git config --global alias.hist '!git log --oneline --graph --decorate --all' --C
  git remote add origin https://github.com/pradhan-satyajit/demo.git
 
 git push -u origin master
+
+git init --initialize empty GIT repository
