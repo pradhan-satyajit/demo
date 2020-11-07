@@ -10,3 +10,5 @@ git restore <file name> --Removes Staged changes
 
 git mv <source file name> <target file name> --Rename file name. Automatically Staged
 
+git rm <file name> --Deletes file from Repository. Run commit command to make the changes permanent else restore
+
